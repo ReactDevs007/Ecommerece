@@ -1,0 +1,28 @@
+export const NAVIGATORS = {
+  APP: {
+    AUTH: 'app/AUTH',
+    MAIN: 'app/MAIN',
+    CHECK_TOKENS: 'app/CHECK_TOKENS',
+  },
+  AUTH: {
+    LOGIN: 'app/AUTH/LOGIN',
+  },
+  MAIN: {
+    INIT: 'app/MAIN/INIT',
+    MAIN: 'app/MAIN/MAIN',
+    PRODUCT: 'app/MAIN/PRODUCT',
+    FILTER: 'app/MAIN/FILTER',
+    CATALOG: 'app/MAIN/CATALOG',
+    WRITE_BONUSES: 'app/MAIN/WRITE_BONUSES',
+    SPECIALS: 'app/MAIN/SPECIALS',
+    BONUSES: 'app/MAIN/BONUSES',
+    ACCOUNT: 'app/MAIN/ACCOUNT',
+    ABOUT_COMPANY: 'app/MAIN/ABOUT_COMPANY',
+    ABOUT_APP: 'app/MAIN/ABOUT_APP',
+    ORDER: 'app/MAIN/ORDER',
+    SHOPING_CART: 'app/MAIN/SHOPING_CART',
+    FILTERED_PRODUCTS_LIST: 'app/MAIN/FILTERED_PRODUCTS_LIST',
+    PAYMENT: 'app/MAIN/PAYMENT',
+    MAP: 'app/MAIN/MAP',
+  },
+}
